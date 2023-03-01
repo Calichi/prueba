@@ -1,0 +1,13 @@
+header {
+  display: grid;
+  grid-template-areas: "restante boton";
+  grid-template-rows: auto;
+  grid-template-columns: 9fr 1fr;
+  padding: 2rem;
+
+  background: var(--tema-50-porciento);
+}
+
+header .boton {
+  grid-area: boton;
+}
